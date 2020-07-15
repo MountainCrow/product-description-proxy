@@ -1,9 +1,9 @@
 config:
   target: 'http://localhost:3000'
   phases:
-    - duration: 10
-      arrivalRate: 200
+    - duration: 30
+      arrivalRate: 750
 scenarios:
   - flow:
     - get:
-        url: "/name/Tasty_Steel_Ball"
+        url: "/"
