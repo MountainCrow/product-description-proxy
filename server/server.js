@@ -1,5 +1,5 @@
-require('dotenv');
-require('newrelic')
+//require('dotenv');
+//require('newrelic')
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
